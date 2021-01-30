@@ -1,0 +1,2 @@
+# ysc.gd
+Studio site
