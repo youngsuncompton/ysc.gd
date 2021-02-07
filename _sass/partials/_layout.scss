@@ -1,0 +1,51 @@
+// Page stuff
+
+.section {
+  padding-top: $spacing-unit * 2;
+}
+
+
+// Site Footer
+
+.site-footer {
+  bottom: 0;
+  font-family: $accent-font;
+  font-style:italic;
+  font-weight:400;
+  height: auto;
+  padding: $spacing-unit 0;
+  width: 100%;
+
+}
+
+.site-footer a{
+  font-family: $base-font-family;
+  font-style: normal;
+}
+
+
+.footer-links {
+padding-left: 33.3%;
+max-width: 1024px;
+}
+
+.link-list{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+
+  @include media-query($on-palm) {
+    flex-direction: column;
+    font-size: $base-font-size *.75;
+
+    li{
+      margin: ($spacing-unit * .375) 0;
+
+    }
+
+  }
+}
+
+.link-list li {
+  margin-right: $spacing-unit / 2;
+}

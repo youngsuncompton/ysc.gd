@@ -1,0 +1,23 @@
+.initials{
+
+  color: $text-color;
+  padding-right: $spacing-unit / 2;
+  padding-left: $spacing-unit / 2;
+  position: fixed;
+  white-space: nowrap;
+
+
+  @media (min-width: 768px) {
+    padding-right: $spacing-unit;
+    padding-left: $spacing-unit;
+  }
+
+ h1{
+   font-size: 10.5vw;
+ }
+}
+
+.invisible{
+  // color: $background-color;
+  visibility: hidden;
+}

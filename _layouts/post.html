@@ -1,0 +1,18 @@
+---
+layout: default
+---
+
+<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+  <div class="hero-image">
+          {% if page.img %}
+          <img class="featured-img" src={{ "/img/" | prepend: site.baseurl | append : page.img}} alt="{{page.title}}">
+      {% endif %}
+  </div>
+  <div class="post-content" itemprop="articleBody">
+    {{ content }}
+  </div>
+  <!-- <header class="post-header">
+    <h1 class="post-title" itemprop="name headline">{{ page.title | escape }}</h1>
+    <p class="post-meta"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>{% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}</p>
+  </header> -->
+</article>

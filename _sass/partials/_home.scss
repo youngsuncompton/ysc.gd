@@ -1,0 +1,109 @@
+.home a {
+      color: $text-color;
+      text-decoration: underline;
+
+      &:visited {
+        color: $text-color;
+      }
+}
+
+.portfolio {
+  img:hover {
+    cursor: pointer;
+  }
+}
+// Page Content
+
+.home {
+
+  section {
+    width: 100%;
+    display: inline-block;
+    }
+
+   p{
+
+    font-size: 3.75vw;
+    line-height: normal;
+
+    @include media-query($on-laptop) {
+      font-size: $base-font-size * .75;
+      line-height: inherit;
+    }
+  }
+
+  p + p {
+    text-indent: 1em;
+  }
+
+  figure{
+  float:left;
+  clear:none;
+  padding-right: $spacing-unit;
+  }
+
+}
+
+
+
+.projects{
+  padding-top: $spacing-unit * 2;
+  width: 100%;
+
+  h2{
+    padding-left: 33.3%;
+
+  }
+}
+
+.post-list{
+  padding-left: 33.3%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: $spacing-unit;
+
+  @include media-query($on-laptop) {
+    grid-template-columns: 1fr;
+  }
+
+}
+
+
+.list-item-content{
+	width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: $spacing-unit;
+}
+
+.list-item-content h2{
+  font-size: $base-font-size;
+
+}
+
+.image-in-list{
+    width: 100%;
+  }
+
+.post-link {
+  display: block;
+  text-align: left;
+  width: 100%;
+}
+
+
+// Mobile
+
+@include media-query($on-palm) {
+  .list-item{
+    display: flex;
+    width: 100%;
+  }
+
+  .home {figure {
+  padding-right: $spacing-unit / 2 ;
+  }
+}
+
+
+}

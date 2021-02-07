@@ -1,0 +1,106 @@
+// Page Content
+
+.page-content {
+  padding-bottom: 5vh;
+  padding-top: 15%;
+
+}
+
+.post-meta {
+  font-size: $small-font-size;
+  color: $text-color;
+  letter-spacing: .2px;
+}
+
+.post-link {
+  display: block;
+  font-size: $base-font-size * 2;
+}
+
+.post-header {
+  margin-bottom: $spacing-unit;
+}
+
+.post-title {
+  font-size: $base-font-size * 2;
+  letter-spacing: -1px;
+  line-height: 1;
+
+  @include media-query($on-laptop) {
+    font-size: 36px;
+  }
+}
+
+.hero-image {
+  width: 100%;
+}
+
+.hero-image img{
+  width: 100%;
+
+}
+
+
+
+
+.post-content {
+    padding-bottom: $spacing-unit;
+    padding-left: 33.3%;
+    max-width: 1024px;
+
+    @include media-query($on-palm) {
+      padding-left: 0;
+
+    }
+
+}
+
+.post-content p {
+  font-size: $base-font-size;
+}
+
+.post-content p + p {
+  text-indent: 1em;
+  line-height: inherit;
+}
+
+.post-content a {
+  color: $text-color;
+  text-decoration: underline;
+}
+
+
+.post-img img{
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+figcaption > p {
+    font-size: $base-font-size !important;
+    font-style: italic;
+
+  @include media-query($on-palm) {
+    font-size: $base-font-size *.75 !important;
+  }
+
+}
+
+
+
+
+@include media-query($on-palm) {
+
+
+  .post-content {
+    font-size: $base-font-size;
+    width:100%;
+  }
+
+  .post-content p {
+    font-size: $base-font-size *.75 ;
+  }
+
+}

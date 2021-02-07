@@ -1,0 +1,15 @@
+/*
+This CSS resource incorporates links to font software which is the valuable copyrighted property of Monotype and/or its suppliers. You may not attempt to copy, install, redistribute, convert, modify or reverse engineer this font software. Please contact Monotype with any questions regarding Web Fonts: https://www.linotype.com
+*/
+
+// Gothic720
+
+@import url("https://fast.fonts.net/lt/1.css?apiType=css&c=8a81d4eb-4b37-49ae-a107-17546601bc19&fontids=1296328,5330154");
+    @font-face{
+        font-family:"Gothic720";
+        src:url("/assets/fonts/1296328/db5612e3-5569-4907-ba9d-916b84d3961f.woff2") format("woff2"),url("/assets/fonts/1296328/a800bd60-577c-4ae1-a1e2-0b0e12ab77f0.woff") format("woff");
+    }
+    @font-face{
+        font-family:"Gothic720 Italic";
+        src:url("/assets/fonts/5330154/dab9cb99-9433-48aa-973b-24e55a7d1a67.woff2") format("woff2"),url("/assets/fonts/5330154/52e9233b-3d8c-4e92-a38d-b6398ab9b8b4.woff") format("woff");
+    }

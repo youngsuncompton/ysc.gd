@@ -1,0 +1,109 @@
+---
+layout: default
+title: home
+---
+
+<div class="home">
+  <section class="portfolio">
+      <div class="hero-image">
+        {% if page.img %}
+        <img class="featured-img" src={{ "/img/" | prepend: site.baseurl | append : page.img }} alt="{{page.alt}}" >
+        {% endif %}
+      </div>
+
+  </section>
+
+  <!-- Need to add the post list at somepoint -->
+
+  {{ content }}
+
+  <script>
+  $(function(){
+
+    let imgs = [
+
+      { url: "/img/work/StudioCo-op-1.gif", caption: "" },
+      { url: "/img/work/X1A3670.gif", caption: "" },
+      { url: "/img/work/814A5072.gif", caption: "" },
+      { url: "/img/work/814A5082.gif", caption: "" },
+      { url: "/img/work/Argot.gif", caption: "" },
+      { url: "/img/work/ATOM-1.gif", caption: "" },
+      { url: "/img/work/blobs.gif", caption: "" },
+      { url: "/img/work/bmore-invisible-posters-2.gif", caption: "" },
+      { url: "/img/work/humanuniversals-poster.gif", caption: "" },
+      { url: "/img/work/KrissiPoster.gif", caption: "" },
+      { url: "/img/work/Machine-Learning.gif", caption: "" },
+      { url: "/img/work/paper_field.gif", caption: "" },
+      
+      { url: "/img/work/SVNTN1.gif", caption: "" }, { url: "/img/work/SVNTN2.gif", caption: "" },
+
+        { url: "/img/work/MoMA-audio1.gif", caption: "" }, { url: "/img/work/MoMA-audio2.gif", caption: "" },
+        { url: "/img/work/MoMAmembership-1.gif", caption: "" }, { url: "/img/work/MoMAmembership-2.gif", caption: "" },
+        { url: "/img/work/Magazine-1.gif", caption: "" }, { url: "/img/work/Magazine-2.gif", caption: "" }, { url: "/img/work/Magazine-3.gif", caption: "" },
+        { url: "/img/work/moma-mobile-1.gif", caption: "" }, { url: "/img/work/moma-mobile-2.gif", caption: "" }, { url: "/img/work/moma-mobile-3.gif", caption: "" }, { url: "/img/work/moma-mobile-4.gif", caption: "" },
+        { url: "/img/work/memberflow.gif", caption: "" },
+        { url: "/img/work/ML-Rousseau.gif", caption: "" },
+        { url: "/img/work/PS1.gif", caption: "" },
+      { url: "/img/work/RID37.gif", caption: "" },
+      { url: "/img/work/scarf.gif", caption: "" },
+      { url: "/img/work/TIB_10.gif", caption: "" },
+      { url: "/img/work/WPItote.gif", caption: "" },
+      { url: "/img/work/you-pages.gif", caption: "" },
+      { url: "/img/work/yrr.gif", caption: "" },
+      { url: "/img/work/MoMAcase.gif", caption: "" },
+      { url: "/img/work/DEGAS.gif", caption: "" },
+      { url: "/img/work/MoMAbroke.gif", caption: "" },
+      { url: "/img/work/IMG_0538.gif", caption: "" },
+      { url: "/img/work/IMG_0540.gif", caption: "" },
+
+    ];
+
+    function shuffle(a) {
+        var j, x, i;
+        for (i = a.length - 1; i > 0; i--) {
+            j = Math.floor(Math.random() * (i + 1));
+            x = a[i];
+            a[i] = a[j];
+            a[j] = x;
+        }
+        return a;
+    }
+
+    shuffle(imgs);
+
+    var width = Math.floor(Math.random()*25 + 25);
+    var i = 0;
+
+    i++;
+
+  $("section").on("click",function(){
+
+
+      var random = Math.floor(Math.random()*imgs.length),
+      	width = Math.floor(Math.random()*25 + 25),
+      	src = imgs[random];
+
+  		if(i < imgs.length){
+
+  		    $("section").append("<figure style='max-width:"+width+"%'><img src='"+imgs[i].url+"'/><figcaption>"+imgs[i].caption+"</figcaption></figure>");
+  		    i++;
+
+  		    $('img').on('dragstart', function(event) { event.preventDefault(); });
+
+
+  		}else{
+
+  		       $("section").append("<figure style='max-width:"+width+"%'><img src='/img/work/ysc.gif'/><figcaption></figcaption></figure>");
+             $('img').on('dragstart', function(event) { event.preventDefault(); });
+
+  		}
+
+  });
+
+    $('img').on('dragstart', function(event) { event.preventDefault(); });
+
+
+  });
+  </script>
+
+</div>

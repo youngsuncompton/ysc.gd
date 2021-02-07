@@ -1,0 +1,15 @@
+---
+layout: default
+---
+<article class="post">
+
+  <div class="post-img">
+      {% if page.img %}
+          <img class="featured-img" src={{ "/img/" | prepend: site.baseurl | append : page.img}} alt="{{post.alt}}">
+      {% endif %}
+  </div>
+  <div class="post-content">
+    {{ content }}
+  </div>
+
+</article>
