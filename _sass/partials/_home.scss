@@ -8,8 +8,7 @@
 }
 
 .portfolio {
-  img:hover {
-  }
+
 }
 // Page Content
 
@@ -43,6 +42,18 @@
   }
 
 }
+
+.hero-image {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.hero-image img{
+  width: 75vw;
+
+}
+
 
 
 
@@ -103,6 +114,12 @@
   .home {figure {
   padding-right: $spacing-unit / 2 ;
   }
+}
+
+
+.hero-image img{
+  width: 100vw;
+
 }
 
 
