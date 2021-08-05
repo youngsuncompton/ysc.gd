@@ -14,12 +14,12 @@ Before leaving New York I was in-house at The Museum of Modern Art, responsible 
 {% include image.html url="/img/IMG_2015@2x.gif" target="_blank" alt="A photo of a blurry, strolling YSC looking at a series of parallel constructions of painted green steel in the foreground." description="Looking at Judd. Photographed by [Damien Saatdjian](https://damiensaatdjian.com/Judd), 2020" %}
 
 Capabilities:
-  Art direction and design
-  Creative and content strategy
-  Editorial and book design
-  Identity and brand building
-  Product (experience and interaction)
-  Website design and development
+*  Art direction and design
+*  Creative and content strategy
+*  Editorial and book design
+*  Identity and brand building
+*  Product (experience and interaction)
+*  Website design and development
 
 Back to third person:
 
