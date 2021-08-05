@@ -28,14 +28,11 @@ title: home
       { url: "/img/work/Argot.gif", caption: "" },
       { url: "/img/work/ATOM-1.gif", caption: "" }, { url: "/img/work/Kjell2.gif", caption: "<p>With <a href=\"http://javierdesigns.info\" target=\"_blank\">JL</a> and <a href=\"http://lizoh.com\" target=\"_blank\">LO</a></p>" },
 
-      { url: "/img/work/blobs.gif", caption: "" },
       { url: "/img/work/bmore-invisible-posters-2.gif", caption: "" },
       { url: "/img/work/humanuniversals-poster.gif", caption: "" },
       { url: "/img/work/KrissiPoster.gif", caption: "" },
       { url: "/img/work/Machine-Learning.gif", caption: "" },
       { url: "/img/work/paper_field.gif", caption: "" },
-
-        { url: "/img/work/Pentagram-Banner.gif", caption: "With Abbott Miller" },
 
       { url: "/img/work/GLLongSleeves.gif", caption: "" },
       { url: "/img/work/GLstickers.gif", caption: "" },
@@ -77,6 +74,8 @@ title: home
 
     var width = Math.floor(Math.random()*25 + 25);
     var i = 0;
+
+      $("section").prepend("<figure style='max-width:"+width+"%'><img src='"+imgs[i].url+"'/><figcaption>"+imgs[i].caption+"</figcaption></figure>");
 
     i++;
 

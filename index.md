@@ -1,8 +1,8 @@
 ---
 layout: home
 permalink: /
-img: Ghostbook.gif
-alt: An image of shadows cast by an open book, but no book just the suggestion of bound pages.
+img:
+alt: 
 ---
 
 A small studio operated by Young Sun Compton or the personal and professional practice of an independent graphic designer working on identities, ephemera, books, and websites.
