@@ -7,11 +7,19 @@ img:
 
 {% include image.html url="/img/YouReader@2x.gif" target="_blank" description="" alt="Scan of a handwritten note, in thick graphite. The inconsistency of the letterforms reveals my hurried, shaky hand. The note reads you reader reading" %}
 
-I’m a graphic designer (now) located in Los Angeles with 11 years experience making things like websites, identities, ephemera, some exhibitions and books while collaborating with other designers and studios and developers, artists, small and not-so-small businesses, cultural institutions, software companies, I've produced work for Bloomberg, Haworth Furniture, IBM, Mason Gross School of the Arts, MoMA, MoMA Publications, Monotype,  Montclair State University Art Galleries, The Ohio State University Wexner Medical Center, PS1, Upholstery Bar, and Wildenstein Plattner Institute—a mixed bag.
+I’m a graphic designer (now) located in Los Angeles with 11 years experience making things like websites, identities, ephemera, some exhibitions and books while collaborating with other designers and studios and developers, artists, small and not-so-small businesses, cultural institutions, and software companies. I've produced work for Bloomberg, Haworth Furniture, IBM, Mason Gross School of the Arts, MoMA, MoMA Publications, Monotype,  Montclair State University Art Galleries, The Ohio State University Wexner Medical Center, PS1, Upholstery Bar, and Wildenstein Plattner Institute—a mixed bag.
 
 Before leaving New York I was in-house at The Museum of Modern Art, responsible for museum-wide interface, product, and (digital) experience design juggling institutional, curatorial and audience (visitor, user, reader) needs, interests, and expectations. I loved it. Prior to MoMA I held positions at ~~old guard~~ industry-leading design firms Pentagram and VSA Partners.
 
 {% include image.html url="/img/IMG_2015@2x.gif" target="_blank" alt="A photo of a blurry, strolling YSC looking at a series of parallel constructions of painted green steel in the foreground." description="Looking at Judd. Photographed by [Damien Saatdjian](https://damiensaatdjian.com/Judd), 2020" %}
+
+Capabilities:
+  Art direction and design
+  Creative and content strategy
+  Editorial and book design
+  Identity and brand building
+  Product (experience and interaction)
+  Website design and development
 
 Back to third person:
 

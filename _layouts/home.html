@@ -35,6 +35,8 @@ title: home
       { url: "/img/work/Machine-Learning.gif", caption: "" },
       { url: "/img/work/paper_field.gif", caption: "" },
 
+        { url: "/img/work/Pentagram-Banner.gif", caption: "With Abbott Miller" },
+
       { url: "/img/work/GLLongSleeves.gif", caption: "" },
       { url: "/img/work/GLstickers.gif", caption: "" },
       { url: "/img/work/GLwaterbottle.gif", caption: "" },
@@ -87,7 +89,7 @@ title: home
 
   		if(i < imgs.length){
 
-  		    $("section").append("<figure style='max-width:"+width+"%'><img src='"+imgs[i].url+"'/><figcaption>"+imgs[i].caption+"</figcaption></figure>");
+  		    $("section").prepend("<figure style='max-width:"+width+"%'><img src='"+imgs[i].url+"'/><figcaption>"+imgs[i].caption+"</figcaption></figure>");
   		    i++;
 
   		    $('img').on('dragstart', function(event) { event.preventDefault(); });
@@ -95,7 +97,7 @@ title: home
 
   		}else{
 
-  		       $("section").append("<figure style='max-width:"+width+"%'><img src='/img/work/ysc.gif'/><figcaption></figcaption></figure>");
+  		       $("section").prepend("<figure style='max-width:"+width+"%'><img src='/img/work/ysc.gif'/><figcaption></figcaption></figure>");
              $('img').on('dragstart', function(event) { event.preventDefault(); });
 
   		}
