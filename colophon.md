@@ -21,7 +21,7 @@ Capabilities:
 
 Back to third person:
 
-YSC was awarded an MFA in Graphic Design from the [Maryland Institute College of Art](http://www.micadesign.org/more){:target="_blank"} in 2013 after earning his BFA from [Montclair State University College of the Arts](https://www.montclair.edu/arts/){:target="_blank"} in 2008. He has received recognition from numerous design publications, and awards from the Type Directors Club, Industrial Designers Society of America, U.S. Cannes, and The Webby Awards.
+YSC was awarded an MFA in Graphic Design from the [Maryland Institute College of Art](http://www.micadesign.org/more){:target="_blank"} in 2013 after earning his BFA from [Montclair State University College of the Arts](https://www.montclair.edu/arts/){:target="_blank"} in 2008. He has received recognition from some design publications, and awards from the Type Directors Club, Industrial Designers Society of America, U.S. Cannes, and The Webby Awards.
 
 The typeface used throughout is [Gothic 720](https://www.linotype.com/1084368/gothic-720-family.html){:target="_blank"}. A version of [Venus Grotesk](https://en.wikipedia.org/wiki/Venus_(typeface)){:target="_blank"} redrawn for early digital use and initially released by Bitstream. Bitstream created (copied?) a library of "classic" fonts (usually under different names for trademark reasons) in digital form <sup>[src](https://en.wikipedia.org/wiki/Bitstream_Inc.){:target="_blank"}</sup>. The capitals are a bit heavier so initials sort of float to the surface—imperfect and charming.
 
