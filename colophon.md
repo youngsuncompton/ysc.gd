@@ -14,9 +14,8 @@ Before leaving New York I was in-house at The Museum of Modern Art, responsible 
 Capabilities:
 *  Art direction and design
 *  Creative and content strategy
-*  Editorial and book design
 *  Identity and brand building
-*  Product (experience and interaction)
+*  Product experience and interaction
 *  Website design and development
 
 Back to third person:
