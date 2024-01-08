@@ -5,7 +5,7 @@ permalink: /info
 img:
 ---
 
-I’m a graphic designer located in ~~New York~~ ~~Los Angeles~~ Philadelphia with 15 years of experience making things like websites, identities, ephemera, some exhibitions and books while collaborating with other designers and studios and developers, artists, small and not-so-small businesses, cultural institutions, and software companies. I've produced work for Bloomberg, Haworth Furniture, IBM, Mason Gross School of the Arts, MoMA, MoMA Publications, Monotype,  Montclair State University Art Galleries, The Ohio State University Wexner Medical Center, PS1, Seed Health (where I currently lead digital design), and Wildenstein Plattner Institute—a mixed bag.
+I’m a graphic designer located in ~~New York~~ ~~Los Angeles~~ Philadelphia with 15 years of experience making things like websites, identities, ephemera, some exhibitions and books while collaborating with other designers and studios and developers, artists, small and not-so-small businesses, cultural institutions, and software companies. I've produced work for Bloomberg, Haworth Furniture, IBM, Mason Gross School of the Arts, MoMA, MoMA Publications, Monotype,  Montclair State University Art Galleries, The Ohio State University Wexner Medical Center, PS1, Seed Health (where I currently lead all things interation and digital design), and Wildenstein Plattner Institute—a mixed bag.
 
 {% include image.html url="/img/IMG_2015@2x.gif" target="_blank" alt="A photo of a blurry, strolling YSC looking at a series of parallel constructions of painted green steel in the foreground." description="Looking at Judd. Photographed by [Damien Saatdjian](https://damiensaatdjian.com/Judd), 2020" %}
 
